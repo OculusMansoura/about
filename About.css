@@ -170,8 +170,8 @@ a{
 }
 
 .card img{
-    width: 100px;
-    height:100px ;
+    width: 6rem;
+    height:6rem ;
     border-radius: 50%;
 }
 .card h3{
@@ -214,33 +214,30 @@ a{
 }
 @media  screen and (min-width:992px) {
     section{
-        padding: 1em ;
+        padding: 1rem ;
     }
     .card{
-        padding: 5em 1em;
+        padding: 5rem 1rem;
     }
     .column{
         flex: 0 0 33.33%;
         max-width: 33.33%;
-        padding: 0 1em;
+        padding: 0 1rem;
     }
 }
 @media  screen and (max-width:600px) {
-
-
+    section{
+        padding-left: 0.5rem ;
+    }
     .card{
-        padding-top: 2em;
-        padding-bottom: 2em;
-        padding-left:  2em;
-
+        padding: 3rem 10rem;
     }
     .column{
-        width: 100%;
+        flex: 0 0 33.33%;
+        max-width: 33.33%;
+        padding: 0 1rem;
     }
-    
 }
-
-
  /* footer */
 .container{
 	max-width: 1170px;
