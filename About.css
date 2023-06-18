@@ -234,6 +234,9 @@ a{
         padding-left:  2em;
 
     }
+    .column{
+        width: 100%;
+    }
     
 }
 
