@@ -229,7 +229,10 @@ a{
 
 
     .card{
-        padding: 2em 4em;
+        padding-top: 2em;
+        padding-bottom: 2em;
+        padding-right:  2em;
+
     }
     
 }
