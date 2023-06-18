@@ -227,7 +227,7 @@ a{
 }
 @media  screen and (max-width:600px) {
     section{
-        padding-left: o.5rem;
+        margin-left: o.5rem;
     }
 }
  /* footer */
