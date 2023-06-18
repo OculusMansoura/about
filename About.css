@@ -227,15 +227,7 @@ a{
 }
 @media  screen and (max-width:600px) {
     section{
-        padding-left: 0rem ;
-    }
-    .card{
-        padding: 3rem 10rem;
-    }
-    .column{
-        flex: 0 0 33.33%;
-        max-width: 33.33%;
-        padding: 0 1rem;
+        padding-left: o.5rem;
     }
 }
  /* footer */
