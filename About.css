@@ -225,20 +225,14 @@ a{
         padding: 0 1em;
     }
 }
-/* @media  screen and (max-width:600px) {
+@media  screen and (max-width:600px) {
 
-    section{
-        padding: 1em ;
-    }
+
     .card{
-        padding: 5em 1em;
+        padding: 2em 4em;
     }
-    .column{
-        flex: 0 0 33.33%;
-        max-width: 33.33%;
-        padding: 0 1em;
-    }
-} */
+    
+}
 
 
  /* footer */
