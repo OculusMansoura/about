@@ -236,7 +236,7 @@ a{
     .card{
         padding-top: 3rem;
         padding-right: 3rem;
-        padding-left:  5rem;
+        padding-left: 1rem;
     }
     .column{
         flex: 0 0 1rem;
