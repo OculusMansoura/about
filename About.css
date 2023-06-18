@@ -228,7 +228,7 @@ a{
 @media  screen and (max-width:600px) {
     section{
         margin-left: 0;
-        margin-right: 5rem;
+        overflow: auto;
     }
 }
  /* footer */
