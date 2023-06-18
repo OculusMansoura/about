@@ -226,11 +226,8 @@ a{
     }
 }
 @media  screen and (max-width:600px) {
-    .row{
-        padding-left: 0.5rem;
-    }
     section{
-        padding: 1rem ;
+        padding-left: 0rem ;
     }
     .card{
         padding: 3rem 10rem;
