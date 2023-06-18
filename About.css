@@ -227,8 +227,15 @@ a{
 }
 @media  screen and (max-width:600px) {
     section{
-        margin-left: 0;
-        overflow: auto;
+        padding: 1rem ;
+    }
+    .card{
+        padding: 2rem 3rem;
+    }
+    .column{
+        flex: 0 0 33.33%;
+        max-width: 33.33%;
+        padding: 0 1rem;
     }
 }
  /* footer */
