@@ -1,0 +1,405 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Oculus</title>
+    <link rel="stylesheet" href="About.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <meta thhp-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Rubik&display=swap" rel="stylesheet">
+    <link href="https://fonts.cdnfonts.com/css/aventena" rel="stylesheet">
+                                
+</head>
+<body>
+    <header>
+        <div class="navbar">
+           <div class="logo"><img src="logo.png" alt=""></div>
+                  <ul class="links">
+                     <li class="home"><a href="Home.html"><i class="fa fa-home"></i>Home</a></li>
+                     <li class="active"><a href="About.html"><i class="fa fa-user"></i>About Us</a></li>
+                     <li class="log"><a href="signin.html"><i class="fa fa-sharp fa-solid fa-right-to-bracket"></i>Sign In</a></li>
+                     <li class="services"><a href="Services.html"><i class="fa fa-clone"></i>Services</a></li>
+                     <li class="contact"><a href="Contact.html"><i class="fa fa-phone"></i>Contact</a></li>
+                 </ul>
+                    <div class="toggle_btn">
+                    <i class="fa-solid fa-bars"></i>
+                    </div>
+         </div>
+     
+         <div class="dropdown_menu">
+             <li class="home"><a href="Home.html"><i class="fa fa-home"></i>Home</a></li>
+             <li class="active"><a href="About.html"><i class="fa fa-user"></i>About Us</a></li>
+             <li class="log"><a href="signin.html"><i class="fa fa-sharp fa-solid fa-right-to-bracket"></i>Sign In</a></li>
+             <li class="services"><a href="Services.html"><i class="fa fa-clone"></i>Services</a></li>
+             <li class="contact"><a href="Contact.html"><i class="fa fa-phone"></i>Contact</a></li>
+         </div>
+        
+     </header>
+         <!-- js dropdown_menu -->
+     <script>
+         const toggleBtn = document.querySelector(' .toggle_btn')
+         const toggleBtnIcon = document.querySelector(' .toggle_btn i')
+         const dropDownMenu = document.querySelector(' .dropdown_menu')
+       
+        toggleBtn.onclick = function() {
+            dropDownMenu.classList.toggle('open')
+            const isOpen = dropDownMenu.classList.contains('open')
+     
+            toggleBtnIcon.classList = isOpen
+            ? 'fa-solid fa-xmark'
+            : 'fa-solid fa-bars'
+        }
+     
+     </script>
+    <Section>
+        <div class="row2">
+            <h1 id="team">Our Team</h1>
+        </div>
+        <div class="row2">
+             <!--Column 01-->
+             <div class="column">
+                <div class="card">
+                    <div class="img-container">
+                        <img src="drmohamed.png" />
+                    </div>
+                    <h3>Dr-Mohamed Maoad</h3>
+                    <p>Associate Professor</p>
+                    <div class="icons">
+                        <a href="#">
+                            <i class="fab fa-twitter"></i>
+                        </a>
+                        <a href="#">
+                            <i class="fab fa-linkedin"></i>
+                        </a>
+                        <a href="#">
+                            <i class="fa-brands fa-github"></i>
+                        </a>
+                        <a href="#">
+                            <i class="fa-solid fa-envelope"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <!--Column 11-->
+            <div class="column">
+                <div class="card">
+                    <div class="img-container">
+                        <img src="eng hanan.jpeg" />
+                    </div>
+                    <h3>Eng-Hanan Mohamed</h3>
+                    <p>Teaching Assistant</p>
+                    <div class="icons">
+                        <a href="#">
+                            <i class="fab fa-twitter"></i>
+                        </a>
+                        <a href="#">
+                            <i class="fab fa-linkedin"></i>
+                        </a>
+                        <a href="#">
+                            <i class="fa-brands fa-github"></i>
+                        </a>
+                        <a href="#">
+                            <i class="fa-solid fa-envelope"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <!--Column 12-->
+            <div class="column">
+                <div class="card">
+                    <div class="img-container">
+                        <img src="eng_moataz.png" />
+                    </div>
+                    <h3>Eng-Moataz El Sherbimy</h3>
+                    <p>Teaching Assistant</p>
+                    <div class="icons">
+                        <a href="#">
+                            <i class="fab fa-twitter"></i>
+                        </a>
+                        <a href="#">
+                            <i class="fab fa-linkedin"></i>
+                        </a>
+                        <a href="#">
+                            <i class="fa-brands fa-github"></i>
+                        </a>
+                        <a href="#">
+                            <i class="fa-solid fa-envelope"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <!--Column 11-->
+            <div class="column">
+                <div class="card">
+                    <div class="img-container">
+                        <img src="eng_hassan.png" />
+                    </div>
+                    <h3>Eng-Hassan Kerat</h3>
+                    <p>Teaching Assistant</p>
+                    <div class="icons">
+                        <a href="#">
+                            <i class="fab fa-twitter"></i>
+                        </a>
+                        <a href="#">
+                            <i class="fab fa-linkedin"></i>
+                        </a>
+                        <a href="#">
+                            <i class="fa-brands fa-github"></i>
+                        </a>
+                        <a href="#">
+                            <i class="fa-solid fa-envelope"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <!--Column 1-->
+            <div class="column">
+                <div class="card">
+                    <div class="img-container">
+                        <img src="kawkab.png" />
+                    </div>
+                    <h3>Kawkab Gamal</h3>
+                    <p>FrontEnd Developer</p>
+                    <div class="icons">
+                        <a href="#">
+                            <i class="fab fa-twitter"></i>
+                        </a>
+                        <a href="#">
+                            <i class="fab fa-linkedin"></i>
+                        </a>
+                        <a href="#">
+                            <i class="fa-brands fa-github"></i>
+                        </a>
+                        <a href="#">
+                            <i class="fa-solid fa-envelope"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+         
+                <!--Column 2-->
+            <div class="column">
+                <div class="card">
+                    <div class="img-container">
+                        <img src="rama.png" />
+                    </div>
+                    <h3>Rama Mohamed</h3>
+                    <p>FrontEnd Developer</p>
+                    <div class="icons">
+                        <a href="#">
+                            <i class="fab fa-twitter"></i>
+                        </a>
+                        <a href="#">
+                            <i class="fab fa-linkedin"></i>
+                        </a>
+                        <a href="#">
+                            <i class="fa-brands fa-github"></i>
+                        </a>
+                        <a href="#">
+                            <i class="fa-solid fa-envelope"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+                 <!--Column 3-->
+                 <div class="column">
+                    <div class="card">
+                        <div class="img-container">
+                            <img src="noha.png" />
+                        </div>
+                        <h3>Noha Mohamed</h3>
+                        <p>BackEnd Developer</p>
+                        <div class="icons">
+                            <a href="#">
+                                <i class="fab fa-twitter"></i>
+                            </a>
+                            <a href="#">
+                                <i class="fab fa-linkedin"></i>
+                            </a>
+                            <a href="#">
+                                <i class="fa-brands fa-github"></i>
+                            </a>
+                            <a href="#">
+                                <i class="fa-solid fa-envelope"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <!--Column 4-->
+                <div class="column">
+                    <div class="card">
+                        <div class="img-container">
+                            <img src="noran.png" />
+                        </div>
+                        <h3>Noran Medhat</h3>
+                        <p>BackEnd Developer</p>
+                        <div class="icons">
+                            <a href="#">
+                                <i class="fab fa-twitter"></i>
+                            </a>
+                            <a href="#">
+                                <i class="fab fa-linkedin"></i>
+                            </a>
+                            <a href="#">
+                                <i class="fa-brands fa-github"></i>
+                            </a>
+                            <a href="#">
+                                <i class="fa-solid fa-envelope"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <!--Column 5-->
+                <div class="column">
+                    <div class="card">
+                        <div class="img-container">
+                            <img src="mawadh.png" />
+                        </div>
+                        <h3>Mawadah Elsayed</h3>
+                        <p>Clinical</p>
+                        <div class="icons">
+                            <a href="#">
+                                <i class="fab fa-twitter"></i>
+                            </a>
+                            <a href="#">
+                                <i class="fab fa-linkedin"></i>
+                            </a>
+                            <a href="#">
+                                <i class="fa-brands fa-github"></i>
+                            </a>
+                            <a href="#">
+                                <i class="fa-solid fa-envelope"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <!--Column 6-->
+                <div class="column">
+                    <div class="card">
+                        <div class="img-container">
+                            <img src="nora.png" />
+                        </div>
+                        <h3>Nora Taher</h3>
+                        <p>Clinical</p>
+                        <div class="icons">
+                            <a href="#">
+                                <i class="fab fa-twitter"></i>
+                            </a>
+                            <a href="#">
+                                <i class="fab fa-linkedin"></i>
+                            </a>
+                            <a href="#">
+                                <i class="fa-brands fa-github"></i>
+                            </a>
+                            <a href="#">
+                                <i class="fa-solid fa-envelope"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <!--Column 7-->
+                <div class="column">
+                    <div class="card">
+                        <div class="img-container">
+                            <img src="yara.png" />
+                        </div>
+                        <h3>Yara Mohamed</h3>
+                        <p>Clinical</p>
+                        <div class="icons">
+                            <a href="#">
+                                <i class="fab fa-twitter"></i>
+                            </a>
+                            <a href="#">
+                                <i class="fab fa-linkedin"></i>
+                            </a>
+                            <a href="#">
+                                <i class="fa-brands fa-github"></i>
+                            </a>
+                            <a href="#">
+                                <i class="fa-solid fa-envelope"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <!--Column 8-->
+                <div class="column">
+                    <div class="card">
+                        <div class="img-container">
+                            <img src="khairy.png" />
+                        </div>
+                        <h3>Khairy Elgohary</h3>
+                        <p>Clinical</p>
+                        <div class="icons">
+                            <a href="#">
+                                <i class="fab fa-twitter"></i>
+                            </a>
+                            <a href="#">
+                                <i class="fab fa-linkedin"></i>
+                            </a>
+                            <a href="#">
+                                <i class="fa-brands fa-github"></i>
+                            </a>
+                            <a href="#">
+                                <i class="fa-solid fa-envelope"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <!--Column 9-->
+                <div class="column">
+                    <div class="card">
+                        <div class="img-container">
+                            <img src="tasneem.png" />
+                        </div>
+                        <h3>Tasneem Mostafa</h3>
+                        <p>Non technical</p>
+                        <div class="icons">
+                            <a href="#">
+                                <i class="fab fa-twitter"></i>
+                            </a>
+                            <a href="#">
+                                <i class="fab fa-linkedin"></i>
+                            </a>
+                            <a href="#">
+                                <i class="fa-brands fa-github"></i>
+                            </a>
+                            <a href="#">
+                                <i class="fa-solid fa-envelope"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                
+        </div>
+    </Section>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="row">
+                <div class="footer-col">
+                    <h4>Our Website</h4>
+                    <ul>
+                        <li><a href="Home.html">home</a></li>
+                        <li><a href="About.html">about us</a></li>
+                        <li><a href="signin.html">sign In</a></li>
+                        <li><a href="Services.html">our services</a></li>
+                        <li><a href="Contact.html">contact</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4>follow us</h4>
+                    <div class="social-links">
+                        <a href="#"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
